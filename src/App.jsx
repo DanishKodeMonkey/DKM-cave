@@ -8,7 +8,7 @@ function App() {
             <header className='bg-blue-500 flex-2 py-4'>
                 <Header />
             </header>
-            <main className='bg-green-500 flex-1 py-4 px-5'>
+            <main className='bg-green-500 flex-1 py-4 px-2 mx-2 justify-center align-middle'>
                 <Home />
             </main>
             <footer className='bg-red-500 flex-2'>
