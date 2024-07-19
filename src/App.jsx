@@ -1,6 +1,7 @@
+import { Outlet } from 'react-router-dom';
+
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Home from './pages/Home';
 
 function App() {
     return (
@@ -9,7 +10,7 @@ function App() {
                 <Header />
             </header>
             <main className='bg-green-500 flex-1 py-4 px-2 mx-2 justify-center align-middle'>
-                <Home />
+                <Outlet />
             </main>
             <footer className='bg-red-500 flex-2'>
                 <Footer />
