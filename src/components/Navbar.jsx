@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <nav>
-            <ul>
+            <ul className='flex justify-around'>
                 <li>
                     <Link to='/'>Home</Link>
                 </li>
