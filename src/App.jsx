@@ -12,7 +12,7 @@ function App() {
             <main className='bg-green-500 flex-1 py-4 px-2 mx-2 justify-center align-middle'>
                 <Outlet />
             </main>
-            <footer className='bg-red-500 flex-2'>
+            <footer className='footer-hover-reveal'>
                 <Footer />
             </footer>
         </div>
