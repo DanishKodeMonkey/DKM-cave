@@ -21,6 +21,7 @@ export default {
                 'text-slideIn-top-3': 'textSlide 1s forwards 400ms',
                 'text-slideIn-top-4': 'textSlide 1s forwards 600ms',
                 'text-slideIn-top-5': 'textSlide 1s forwards 800ms',
+                'text-slideIn-top-6': 'textSlide 1s forwards 1000ms',
             },
         },
     },

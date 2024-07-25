@@ -14,8 +14,14 @@ function Home() {
                 flair!
             </p>
             <p className='opacity-0 animate-text-slideIn-top-4'>
-                Have a look around, and please do enjoy your stay!
+                This site is meant as a contact card for anyone interested, so
+                if you have interesting ideas or opportunities, get in touch!
             </p>
+            <p className='opacity-0 animate-text-slideIn-top-5'>
+                While you are here! <br /> Have a look around, and please do
+                enjoy your stay!
+            </p>
+            <p className='opacity-0 animate-text-slideIn-top-5'></p>
         </div>
     );
 }
