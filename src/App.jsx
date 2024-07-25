@@ -9,10 +9,10 @@ function App() {
             <header className='bg-blue-500 flex-2 py-4'>
                 <Header />
             </header>
-            <main className='bg-green-500 flex-1 py-4 px-2 mx-2 justify-center align-middle'>
+            <main className='bg-green-500 flex-1 py-4 px-2 mx-2 justify-center align-middle overflow-hidden'>
                 <Outlet />
             </main>
-            <footer className='footer-hover-reveal'>
+            <footer className='footer footer-hover-reveal'>
                 <Footer />
             </footer>
         </div>

@@ -4,7 +4,10 @@
 
 
 @layer components{
+    .footer{ @apply bg-red-700 h-5 overflow-hidden
+
+    }
     .footer-hover-reveal{
-        @apply bg-red-700 md:h-5 md:hover:h-24 md:transition-all md:duration-500 md:ease-in-out
+        @apply md:hover:h-24 md:transition-all md:duration-500 md:ease-in-out
     }
 }
